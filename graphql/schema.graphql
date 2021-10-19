@@ -1,8 +1,5 @@
 type Query {
-  """
-  Returns a specified product
-  """
-  product(
+  sortSellers(
     slug: String
     identifier: ProductUniqueIdentifier
     salesChannel: Int
