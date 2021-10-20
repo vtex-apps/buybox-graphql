@@ -1,7 +1,6 @@
 type Query {
   sortSellers(
-    slug: String
-    identifier: ProductUniqueIdentifier
+    skuId: ID!
     salesChannel: Int
     country: String
     postalCode: String
