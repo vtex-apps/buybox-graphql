@@ -106,3 +106,8 @@ We have an (for now, VTEX-only, internal) Splunk dashboard to show all metrics r
 https://splunk72.vtex.com/en-US/app/vtex_io_apps/node_app_metrics
 
 After linking this app and making some requests, you can select `vtex.graphql-example` and see the metrics for your app. **Don't forget to check the box Development, as you are linking your app in a development workspace**.
+
+
+**Upcoming documentation:**
+
+ - [Feature/brpa 339](https://github.com/vtex-apps/buybox-graphql/pull/2)
