@@ -31,7 +31,7 @@ query SortSellersProtocol {
 }
 ```
 
-This returns sellers id's inside the `Product`. We have a possible return after the execution of our query below:
+This returns sellers id's inside the `Product`. Here's a possible response for the execution of this query:
 
 ```graphql
 {
