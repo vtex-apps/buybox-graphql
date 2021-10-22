@@ -4,7 +4,7 @@ This app exports a GraphQL schema to sort sellers on [buybox-context](https://gi
 
 ### Installation
 
-To use it in your app, add in the `manifest.json` the dependence as below:
+To use it in your app, add the following dependency in the `manifest.json` file:
 ```json
   "dependencies": {
     "vtex.buybox-graphql": "0.x"
