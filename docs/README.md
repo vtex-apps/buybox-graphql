@@ -1,5 +1,7 @@
 # Buybox GraphQL
 
+[<i class="fa-brands fa-github"></i> Source code](https://github.com/vtex-apps/buybox-graphql)
+
 > ⚠️ This app is no longer maintained by VTEX. This means support and maintenance are no longer provided.
 
 This app exports a GraphQL schema to sort sellers on [buybox-context](https://github.com/vtex-apps/buybox-context).
