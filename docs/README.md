@@ -1,5 +1,7 @@
 # Buybox GraphQL
 
+[<i class="fa-brands fa-github"></i> Source code](https://github.com/vtex-apps/buybox-graphql)
+
 > ⚠️ This app is no longer maintained by VTEX. This means support and maintenance are no longer provided.
 
 This app exports a GraphQL schema to sort sellers on [buybox-context](https://github.com/vtex-apps/buybox-context).
@@ -13,17 +15,17 @@ To use it in your app, add the following dependency in the `manifest.json` file:
   }
 ```
 
-> This app is used on [buybox-context](https://github.com/vtex-apps/buybox-context), but do you may then use it in your front end component as well.
+> This app is used on [buybox-context](https://github.com/vtex-apps/buybox-context), but you may then use it in your front-end component as well.
 
-To resolve this query, you must have installed in your workspace an app that implements the GraphQL interface. Currently, those are the available resolvers:
+To resolve this query, you must have an app installed in your workspace that implements the GraphQL interface. Currently, those are the available resolvers:
 
 - [buybox-resolver](https://github.com/vtex-apps/buybox-resolver)
 
-> 📣 Having zero or more than one resolver installed will result in an error.
+> Having zero or more than one resolver installed will result in an error.
 
 ### Examples
 
-Using this resolver do you can provide informations about the `Product` and `Shipping` to get an array with sorted sellers. The array returned is a list of `sellerId`.
+Using this resolver, you can provide information about the `Product` and `Shipping` to get an array of sorted sellers. The returned array is a list of `sellerId` values.
 
 ```graphql
 query SortSellersProtocol {
@@ -33,7 +35,7 @@ query SortSellersProtocol {
 }
 ```
 
-This returns sellers id's inside the `Product`. Here's a possible response for the execution of this query:
+This returns sellers' IDs inside the `Product`. Here's a possible response for the execution of this query:
 
 ```graphql
 {
